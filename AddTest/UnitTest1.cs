@@ -18,5 +18,11 @@ namespace AddTest
         {
             Assert.AreEqual(Add.Add.AddTwoNumbers(1, 2), 3);
         }
+        
+        [Test]
+        public void OnePlusTwoShouldBeFour()
+        {
+            Assert.AreEqual(Add.Add.AddTwoNumbers(1, 2), 4);
+        }
     }
 }
