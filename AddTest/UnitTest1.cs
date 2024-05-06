@@ -24,5 +24,11 @@ namespace AddTest
         {
             Assert.AreEqual(Add.Add.AddTwoNumbers(2, 2), 4);
         }
+
+        [Test]
+        public void TwoPlusThreeShouldBeFive()
+        {
+            Assert.AreEqual(Add.Add.AddTwoNumbers(2, 3), 4);
+        }
     }
 }
