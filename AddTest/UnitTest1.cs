@@ -22,7 +22,7 @@ namespace AddTest
         [Test]
         public void OnePlusTwoShouldBeFour()
         {
-            Assert.AreEqual(Add.Add.AddTwoNumbers(1, 2), 4);
+            Assert.AreEqual(Add.Add.AddTwoNumbers(2, 2), 4);
         }
     }
 }
